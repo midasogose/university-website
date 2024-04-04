@@ -74,54 +74,52 @@ nav img{
    background: #f44336;
    transition: 1s;
 }
-    /*----- campus -----*/
-.campus{
-    width: 75%;
-    margin: auto;
-    text-align: center;
-    padding-top: 40px;
-}
-.campus-col{
-    flex-basis: 32%;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    position: relative ;
-    overflow: hidden;
-    
-}
-.campus-col img{
-    width: 50%;
-    display: flex;
-}
-.layer{
-    background: transparent;
-    height: 100%;
-    width: 50%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: 0.5s;
-}
-.layer:hover{
-    background: rgba(226,0,0,0.7);
-}
-.layer h3{
-    width: 100%;
-    font-weight: 500;
-    color: #fffA;
-    font-size: 26px;
+footer{
+       
     bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    position: absolute;
-    opacity: 0;
-    transition: 0.5;
+    left: 0;
+    right: 0;
+    background: brown;
+    height: auto;
+    width: 100vw;
+    
+    padding-top: 40px;
+    color: #fff;
 }
-.layer:hover h3{
-    bottom: 48%;
-    opacity: 1;
+.footer-content{
+display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
-.row .campus-col{
-    dispaly:flex;
-    float: left;
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 18px;
+    color: #fff;
+}
+.social{
+    list-style: none;
+   display: flex;
+    align-items: center;
+    margin: 1rem 0 3rem 0;
+}
+.social li{
+    margin: 0 10px;
+}
+.social a{
+    text-decoration: none;
+    color: #fff;
+}
+.social a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
 }

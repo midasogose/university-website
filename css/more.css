@@ -1,0 +1,92 @@
+img{
+    margin-right: 1000px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+background-image: url(../image/image.png);
+background-size: cover;
+}
+section{
+    
+    margin-left: 400px;}
+    
+h2 {
+    color: #333;
+        font-size: 36px;
+        font-weight: 600;
+    }
+    p{
+        color: rgb(43, 46, 37);
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 22px;
+        padding: 10px;
+        text-align: center;
+    }
+    .row{
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-between;
+    }
+    h1{
+        text-align: center;
+        font-weight: 600;
+        margin: 10px 0;
+    }
+    .more-col{
+        box-shadow: 0 0 20px 0px rgba(2, 3, 4, 2);
+        background: #fff3f3;
+       
+    }
+    footer{
+       
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: brown;
+        height: auto;
+        width: 100vw;
+        
+        padding-top: 40px;
+        color: #fff;
+    }
+    .footer-content{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-content h3{
+        font-size: 1.8rem;
+        font-weight: 400;
+        text-transform: capitalize;
+        line-height: 3rem;
+    }
+    .footer-content p{
+        max-width: 500px;
+        margin: 10px auto;
+        line-height: 28px;
+        font-size: 18px;
+        color: #fff;
+    }
+    .social{
+        list-style: none;
+       display: flex;
+        align-items: center;
+        margin: 1rem 0 3rem 0;
+    }
+    .social li{
+        margin: 0 10px;
+    }
+    .social a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .social a i{
+        font-size: 1.1rem;
+        transition: color .4s ease;
+    }
+    
