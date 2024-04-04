@@ -54,9 +54,10 @@ nav img{
     left: 10%;
     transform: translate(-50% -50%);
     text-align: center;
+    margin-top: -12%;
 }
 .text-box h1{
-  font-size: 60px;
+  font-size: 50px;
 }
 .hero-btn{
   display: inline-block;
@@ -73,53 +74,4 @@ nav img{
    border: 1px solid #f44336;
    background: #f44336;
    transition: 1s;
-}
-footer{
-       
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: brown;
-    height: auto;
-    width: 100vw;
-    
-    padding-top: 40px;
-    color: #fff;
-}
-.footer-content{
-display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
-.footer-content h3{
-    font-size: 1.8rem;
-    font-weight: 400;
-    text-transform: capitalize;
-    line-height: 3rem;
-}
-.footer-content p{
-    max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 18px;
-    color: #fff;
-}
-.social{
-    list-style: none;
-   display: flex;
-    align-items: center;
-    margin: 1rem 0 3rem 0;
-}
-.social li{
-    margin: 0 10px;
-}
-.social a{
-    text-decoration: none;
-    color: #fff;
-}
-.social a i{
-    font-size: 1.1rem;
-    transition: color .4s ease;
 }
