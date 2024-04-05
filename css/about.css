@@ -32,10 +32,21 @@
 }
 .nav-links ul li:hover:after{
     width: 100%;
+    
+}
+
+
+h1 {
+    font-size: 35px;
+    font-weight: 600;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  
 }
 .container{
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 40px;
+
 }
 .container p {
     font-family: Arial, Helvetica, sans-serif;
@@ -52,4 +63,10 @@ h3 {
     font-weight: 100;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
+}
+
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
 }

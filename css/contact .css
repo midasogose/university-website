@@ -17,7 +17,7 @@
     nav img{
         width: 150px;
         float: left;
-        margin-top: -15px;
+        margin-top: -10px;
 
     }
 
@@ -57,11 +57,30 @@
         color: #333;;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         padding-right: 50px;
-       
+        
     }
-    p {
+    .icon-text {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px; /* Adjust the spacing between each icon-text pair */
+        line-height: 3;
+      }
+      
+      .icon {
+        margin-right: 5px; /* Adjust the spacing between the icon and text */
+      }
+      
+      .icon::before {
+        content: ''; /* This is required for pseudo-elements */
+        display: inline-block;
+        font-size: 1.5em; /* Adjust the size of the icon */
+      }
+      
+       
+p {
         color: #666;
-        padding: 17px;
+        padding: 10px;
+      
     }
      
         
@@ -72,8 +91,54 @@
         margin: 5px 0;
     }
     
-@media(max-width: 700px){
-    .row{
-        flex-direction: column;
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
     }
-}
+
+    .container a {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+         margin-left: 20px;
+         line-height: 2;
+    }
+    .container a {
+        line-height: 2;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    
+    @media(max-width: 700px){
+        .row{
+            flex-direction: column;
+        }
+    }
